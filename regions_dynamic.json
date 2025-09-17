@@ -1,0 +1,142 @@
+{
+  "exit": {
+    "center": [
+      1.6,
+      0.0
+    ],
+    "halfwidth": [
+      0.2,
+      0.05
+    ]
+  },
+  "road_car1": {
+    "center": [
+      0.4,
+      0.95
+    ],
+    "halfwidth": [
+      1.1,
+      0.7
+    ]
+  },
+  "conflict_car2": {
+    "center": [
+      0.45,
+      0.0
+    ],
+    "halfwidth": [
+      0.15,
+      0.15
+    ]
+  },
+  "road_car2": {
+    "center": [
+      0.45000000000000007,
+      -0.04999999999999999
+    ],
+    "halfwidth": [
+      1.05,
+      0.45
+    ]
+  },
+  "related_conflict_car2": {
+    "center": [
+      1.35,
+      0.7999999999999999
+    ],
+    "halfwidth": [
+      0.15,
+      0.0125
+    ]
+  },
+  "conflict_car3": {
+    "center": [
+      -0.45,
+      0.0
+    ],
+    "halfwidth": [
+      0.15,
+      0.15
+    ]
+  },
+  "road_car3": {
+    "center": [
+      -0.4,
+      -0.1
+    ],
+    "halfwidth": [
+      0.1,
+      0.95
+    ]
+  },
+  "related_conflict_car3": {
+    "center": [
+      -1.2750000000000001,
+      0.0
+    ],
+    "halfwidth": [
+      0.0125,
+      0.15
+    ]
+  },
+  "conflict_car4": {
+    "center": [
+      0.45,
+      0.0
+    ],
+    "halfwidth": [
+      0.15,
+      0.15
+    ]
+  },
+  "road_car4": {
+    "center": [
+      0.45000000000000007,
+      -0.04999999999999999
+    ],
+    "halfwidth": [
+      1.05,
+      0.45
+    ]
+  },
+  "related_conflict_car4": {
+    "center": [
+      1.35,
+      0.7999999999999999
+    ],
+    "halfwidth": [
+      0.15,
+      0.0125
+    ]
+  },
+  "conflict_car5": {
+    "center": [
+      0.45,
+      0.9
+    ],
+    "halfwidth": [
+      0.15,
+      0.15
+    ]
+  },
+  "road_car5": {
+    "center": [
+      0.45,
+      0.95
+    ],
+    "halfwidth": [
+      1.05,
+      0.1
+    ]
+  },
+  "related_conflict_car5": {
+    "center": [
+      0.45,
+      0.07500000000000001
+    ],
+    "halfwidth": [
+      0.15,
+      0.0125
+    ]
+  }
+}

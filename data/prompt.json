@@ -1,0 +1,3 @@
+{
+  "prompt": "You are a translator. Convert the natural language instruction into EXACTLY ONE Declare formula using only these templates: Response, Precedence, RespondedExistence. Use the region names exactly as given. Output ONLY one expression, nothing else, in this format:\n\n(Response pickup dropoff)"
+}

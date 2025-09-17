@@ -1,0 +1,734 @@
+[
+  {
+    "utterance": "Visit start before exit",
+    "expected": "(Precedence start exit)"
+  },
+  {
+    "utterance": "exit can only occur after start",
+    "expected": "(Precedence start exit)"
+  },
+  {
+    "utterance": "You must reach start first, then exit",
+    "expected": "(Precedence start exit)"
+  },
+  {
+    "utterance": "exit only after start",
+    "expected": "(Response start exit)"
+  },
+  {
+    "utterance": "After visiting start, eventually reach exit",
+    "expected": "(Response start exit)"
+  },
+  {
+    "utterance": "If start happens, exit must follow",
+    "expected": "(Response start exit)"
+  },
+  {
+    "utterance": "If you visit start, then you must also reach exit",
+    "expected": "(RespondedExistence start exit)"
+  },
+  {
+    "utterance": "Visiting start implies eventually visiting exit",
+    "expected": "(RespondedExistence start exit)"
+  },
+  {
+    "utterance": "Whenever start happens, exit must also occur",
+    "expected": "(RespondedExistence start exit)"
+  },
+  {
+    "utterance": "Stay in start until reaching exit",
+    "expected": "(Until start exit)"
+  },
+  {
+    "utterance": "start must hold true until exit occurs",
+    "expected": "(Until start exit)"
+  },
+  {
+    "utterance": "Remain in start and stop only when exit happens",
+    "expected": "(Until start exit)"
+  },
+  {
+    "utterance": "Visit start or exit",
+    "expected": "(Or start exit)"
+  },
+  {
+    "utterance": "Either start or exit must be reached",
+    "expected": "(Or start exit)"
+  },
+  {
+    "utterance": "At least one of start or exit must occur",
+    "expected": "(Or start exit)"
+  },
+  {
+    "utterance": "Visit start and exit",
+    "expected": "(And start exit)"
+  },
+  {
+    "utterance": "Both start and exit must be reached",
+    "expected": "(And start exit)"
+  },
+  {
+    "utterance": "You must eventually visit both start and exit",
+    "expected": "(And start exit)"
+  },
+  {
+    "utterance": "Stay in start unless exit happens, otherwise remain in start forever",
+    "expected": "(WeakUntil start exit)"
+  },
+  {
+    "utterance": "start must hold until exit, or forever if exit never occurs",
+    "expected": "(WeakUntil start exit)"
+  },
+  {
+    "utterance": "Continue in start until exit happens, or stay in start always if exit never does",
+    "expected": "(WeakUntil start exit)"
+  },
+  {
+    "utterance": "Visit start before slot1",
+    "expected": "(Precedence start slot1)"
+  },
+  {
+    "utterance": "slot1 can only occur after start",
+    "expected": "(Precedence start slot1)"
+  },
+  {
+    "utterance": "You must reach start first, then slot1",
+    "expected": "(Precedence start slot1)"
+  },
+  {
+    "utterance": "slot1 only after start",
+    "expected": "(Response start slot1)"
+  },
+  {
+    "utterance": "After visiting start, eventually reach slot1",
+    "expected": "(Response start slot1)"
+  },
+  {
+    "utterance": "If start happens, slot1 must follow",
+    "expected": "(Response start slot1)"
+  },
+  {
+    "utterance": "If you visit start, then you must also reach slot1",
+    "expected": "(RespondedExistence start slot1)"
+  },
+  {
+    "utterance": "Visiting start implies eventually visiting slot1",
+    "expected": "(RespondedExistence start slot1)"
+  },
+  {
+    "utterance": "Whenever start happens, slot1 must also occur",
+    "expected": "(RespondedExistence start slot1)"
+  },
+  {
+    "utterance": "Stay in start until reaching slot1",
+    "expected": "(Until start slot1)"
+  },
+  {
+    "utterance": "start must hold true until slot1 occurs",
+    "expected": "(Until start slot1)"
+  },
+  {
+    "utterance": "Remain in start and stop only when slot1 happens",
+    "expected": "(Until start slot1)"
+  },
+  {
+    "utterance": "Visit start or slot1",
+    "expected": "(Or start slot1)"
+  },
+  {
+    "utterance": "Either start or slot1 must be reached",
+    "expected": "(Or start slot1)"
+  },
+  {
+    "utterance": "At least one of start or slot1 must occur",
+    "expected": "(Or start slot1)"
+  },
+  {
+    "utterance": "Visit start and slot1",
+    "expected": "(And start slot1)"
+  },
+  {
+    "utterance": "Both start and slot1 must be reached",
+    "expected": "(And start slot1)"
+  },
+  {
+    "utterance": "You must eventually visit both start and slot1",
+    "expected": "(And start slot1)"
+  },
+  {
+    "utterance": "Stay in start unless slot1 happens, otherwise remain in start forever",
+    "expected": "(WeakUntil start slot1)"
+  },
+  {
+    "utterance": "start must hold until slot1, or forever if slot1 never occurs",
+    "expected": "(WeakUntil start slot1)"
+  },
+  {
+    "utterance": "Continue in start until slot1 happens, or stay in start always if slot1 never does",
+    "expected": "(WeakUntil start slot1)"
+  },
+  {
+    "utterance": "Visit start before state_space",
+    "expected": "(Precedence start state_space)"
+  },
+  {
+    "utterance": "state_space can only occur after start",
+    "expected": "(Precedence start state_space)"
+  },
+  {
+    "utterance": "You must reach start first, then state_space",
+    "expected": "(Precedence start state_space)"
+  },
+  {
+    "utterance": "state_space only after start",
+    "expected": "(Response start state_space)"
+  },
+  {
+    "utterance": "After visiting start, eventually reach state_space",
+    "expected": "(Response start state_space)"
+  },
+  {
+    "utterance": "If start happens, state_space must follow",
+    "expected": "(Response start state_space)"
+  },
+  {
+    "utterance": "If you visit start, then you must also reach state_space",
+    "expected": "(RespondedExistence start state_space)"
+  },
+  {
+    "utterance": "Visiting start implies eventually visiting state_space",
+    "expected": "(RespondedExistence start state_space)"
+  },
+  {
+    "utterance": "Whenever start happens, state_space must also occur",
+    "expected": "(RespondedExistence start state_space)"
+  },
+  {
+    "utterance": "Stay in start until reaching state_space",
+    "expected": "(Until start state_space)"
+  },
+  {
+    "utterance": "start must hold true until state_space occurs",
+    "expected": "(Until start state_space)"
+  },
+  {
+    "utterance": "Remain in start and stop only when state_space happens",
+    "expected": "(Until start state_space)"
+  },
+  {
+    "utterance": "Visit start or state_space",
+    "expected": "(Or start state_space)"
+  },
+  {
+    "utterance": "Either start or state_space must be reached",
+    "expected": "(Or start state_space)"
+  },
+  {
+    "utterance": "At least one of start or state_space must occur",
+    "expected": "(Or start state_space)"
+  },
+  {
+    "utterance": "Visit start and state_space",
+    "expected": "(And start state_space)"
+  },
+  {
+    "utterance": "Both start and state_space must be reached",
+    "expected": "(And start state_space)"
+  },
+  {
+    "utterance": "You must eventually visit both start and state_space",
+    "expected": "(And start state_space)"
+  },
+  {
+    "utterance": "Stay in start unless state_space happens, otherwise remain in start forever",
+    "expected": "(WeakUntil start state_space)"
+  },
+  {
+    "utterance": "start must hold until state_space, or forever if state_space never occurs",
+    "expected": "(WeakUntil start state_space)"
+  },
+  {
+    "utterance": "Continue in start until state_space happens, or stay in start always if state_space never does",
+    "expected": "(WeakUntil start state_space)"
+  },
+  {
+    "utterance": "Visit slot1 before exit",
+    "expected": "(Precedence slot1 exit)"
+  },
+  {
+    "utterance": "exit can only occur after slot1",
+    "expected": "(Precedence slot1 exit)"
+  },
+  {
+    "utterance": "You must reach slot1 first, then exit",
+    "expected": "(Precedence slot1 exit)"
+  },
+  {
+    "utterance": "exit only after slot1",
+    "expected": "(Response slot1 exit)"
+  },
+  {
+    "utterance": "After visiting slot1, eventually reach exit",
+    "expected": "(Response slot1 exit)"
+  },
+  {
+    "utterance": "If slot1 happens, exit must follow",
+    "expected": "(Response slot1 exit)"
+  },
+  {
+    "utterance": "If you visit slot1, then you must also reach exit",
+    "expected": "(RespondedExistence slot1 exit)"
+  },
+  {
+    "utterance": "Visiting slot1 implies eventually visiting exit",
+    "expected": "(RespondedExistence slot1 exit)"
+  },
+  {
+    "utterance": "Whenever slot1 happens, exit must also occur",
+    "expected": "(RespondedExistence slot1 exit)"
+  },
+  {
+    "utterance": "Stay in slot1 until reaching exit",
+    "expected": "(Until slot1 exit)"
+  },
+  {
+    "utterance": "slot1 must hold true until exit occurs",
+    "expected": "(Until slot1 exit)"
+  },
+  {
+    "utterance": "Remain in slot1 and stop only when exit happens",
+    "expected": "(Until slot1 exit)"
+  },
+  {
+    "utterance": "Visit slot1 or exit",
+    "expected": "(Or slot1 exit)"
+  },
+  {
+    "utterance": "Either slot1 or exit must be reached",
+    "expected": "(Or slot1 exit)"
+  },
+  {
+    "utterance": "At least one of slot1 or exit must occur",
+    "expected": "(Or slot1 exit)"
+  },
+  {
+    "utterance": "Visit slot1 and exit",
+    "expected": "(And slot1 exit)"
+  },
+  {
+    "utterance": "Both slot1 and exit must be reached",
+    "expected": "(And slot1 exit)"
+  },
+  {
+    "utterance": "You must eventually visit both slot1 and exit",
+    "expected": "(And slot1 exit)"
+  },
+  {
+    "utterance": "Stay in slot1 unless exit happens, otherwise remain in slot1 forever",
+    "expected": "(WeakUntil slot1 exit)"
+  },
+  {
+    "utterance": "slot1 must hold until exit, or forever if exit never occurs",
+    "expected": "(WeakUntil slot1 exit)"
+  },
+  {
+    "utterance": "Continue in slot1 until exit happens, or stay in slot1 always if exit never does",
+    "expected": "(WeakUntil slot1 exit)"
+  },
+  {
+    "utterance": "Visit slot1 before state_space",
+    "expected": "(Precedence slot1 state_space)"
+  },
+  {
+    "utterance": "state_space can only occur after slot1",
+    "expected": "(Precedence slot1 state_space)"
+  },
+  {
+    "utterance": "You must reach slot1 first, then state_space",
+    "expected": "(Precedence slot1 state_space)"
+  },
+  {
+    "utterance": "state_space only after slot1",
+    "expected": "(Response slot1 state_space)"
+  },
+  {
+    "utterance": "After visiting slot1, eventually reach state_space",
+    "expected": "(Response slot1 state_space)"
+  },
+  {
+    "utterance": "If slot1 happens, state_space must follow",
+    "expected": "(Response slot1 state_space)"
+  },
+  {
+    "utterance": "If you visit slot1, then you must also reach state_space",
+    "expected": "(RespondedExistence slot1 state_space)"
+  },
+  {
+    "utterance": "Visiting slot1 implies eventually visiting state_space",
+    "expected": "(RespondedExistence slot1 state_space)"
+  },
+  {
+    "utterance": "Whenever slot1 happens, state_space must also occur",
+    "expected": "(RespondedExistence slot1 state_space)"
+  },
+  {
+    "utterance": "Stay in slot1 until reaching state_space",
+    "expected": "(Until slot1 state_space)"
+  },
+  {
+    "utterance": "slot1 must hold true until state_space occurs",
+    "expected": "(Until slot1 state_space)"
+  },
+  {
+    "utterance": "Remain in slot1 and stop only when state_space happens",
+    "expected": "(Until slot1 state_space)"
+  },
+  {
+    "utterance": "Visit slot1 or state_space",
+    "expected": "(Or slot1 state_space)"
+  },
+  {
+    "utterance": "Either slot1 or state_space must be reached",
+    "expected": "(Or slot1 state_space)"
+  },
+  {
+    "utterance": "At least one of slot1 or state_space must occur",
+    "expected": "(Or slot1 state_space)"
+  },
+  {
+    "utterance": "Visit slot1 and state_space",
+    "expected": "(And slot1 state_space)"
+  },
+  {
+    "utterance": "Both slot1 and state_space must be reached",
+    "expected": "(And slot1 state_space)"
+  },
+  {
+    "utterance": "You must eventually visit both slot1 and state_space",
+    "expected": "(And slot1 state_space)"
+  },
+  {
+    "utterance": "Stay in slot1 unless state_space happens, otherwise remain in slot1 forever",
+    "expected": "(WeakUntil slot1 state_space)"
+  },
+  {
+    "utterance": "slot1 must hold until state_space, or forever if state_space never occurs",
+    "expected": "(WeakUntil slot1 state_space)"
+  },
+  {
+    "utterance": "Continue in slot1 until state_space happens, or stay in slot1 always if state_space never does",
+    "expected": "(WeakUntil slot1 state_space)"
+  },
+  {
+    "utterance": "Visit state_space before exit",
+    "expected": "(Precedence state_space exit)"
+  },
+  {
+    "utterance": "exit can only occur after state_space",
+    "expected": "(Precedence state_space exit)"
+  },
+  {
+    "utterance": "You must reach state_space first, then exit",
+    "expected": "(Precedence state_space exit)"
+  },
+  {
+    "utterance": "exit only after state_space",
+    "expected": "(Response state_space exit)"
+  },
+  {
+    "utterance": "After visiting state_space, eventually reach exit",
+    "expected": "(Response state_space exit)"
+  },
+  {
+    "utterance": "If state_space happens, exit must follow",
+    "expected": "(Response state_space exit)"
+  },
+  {
+    "utterance": "If you visit state_space, then you must also reach exit",
+    "expected": "(RespondedExistence state_space exit)"
+  },
+  {
+    "utterance": "Visiting state_space implies eventually visiting exit",
+    "expected": "(RespondedExistence state_space exit)"
+  },
+  {
+    "utterance": "Whenever state_space happens, exit must also occur",
+    "expected": "(RespondedExistence state_space exit)"
+  },
+  {
+    "utterance": "Stay in state_space until reaching exit",
+    "expected": "(Until state_space exit)"
+  },
+  {
+    "utterance": "state_space must hold true until exit occurs",
+    "expected": "(Until state_space exit)"
+  },
+  {
+    "utterance": "Remain in state_space and stop only when exit happens",
+    "expected": "(Until state_space exit)"
+  },
+  {
+    "utterance": "Visit state_space or exit",
+    "expected": "(Or state_space exit)"
+  },
+  {
+    "utterance": "Either state_space or exit must be reached",
+    "expected": "(Or state_space exit)"
+  },
+  {
+    "utterance": "At least one of state_space or exit must occur",
+    "expected": "(Or state_space exit)"
+  },
+  {
+    "utterance": "Visit state_space and exit",
+    "expected": "(And state_space exit)"
+  },
+  {
+    "utterance": "Both state_space and exit must be reached",
+    "expected": "(And state_space exit)"
+  },
+  {
+    "utterance": "You must eventually visit both state_space and exit",
+    "expected": "(And state_space exit)"
+  },
+  {
+    "utterance": "Stay in state_space unless exit happens, otherwise remain in state_space forever",
+    "expected": "(WeakUntil state_space exit)"
+  },
+  {
+    "utterance": "state_space must hold until exit, or forever if exit never occurs",
+    "expected": "(WeakUntil state_space exit)"
+  },
+  {
+    "utterance": "Continue in state_space until exit happens, or stay in state_space always if exit never does",
+    "expected": "(WeakUntil state_space exit)"
+  },
+  {
+    "utterance": "Visit state_space before slot1",
+    "expected": "(Precedence state_space slot1)"
+  },
+  {
+    "utterance": "slot1 can only occur after state_space",
+    "expected": "(Precedence state_space slot1)"
+  },
+  {
+    "utterance": "You must reach state_space first, then slot1",
+    "expected": "(Precedence state_space slot1)"
+  },
+  {
+    "utterance": "slot1 only after state_space",
+    "expected": "(Response state_space slot1)"
+  },
+  {
+    "utterance": "After visiting state_space, eventually reach slot1",
+    "expected": "(Response state_space slot1)"
+  },
+  {
+    "utterance": "If state_space happens, slot1 must follow",
+    "expected": "(Response state_space slot1)"
+  },
+  {
+    "utterance": "If you visit state_space, then you must also reach slot1",
+    "expected": "(RespondedExistence state_space slot1)"
+  },
+  {
+    "utterance": "Visiting state_space implies eventually visiting slot1",
+    "expected": "(RespondedExistence state_space slot1)"
+  },
+  {
+    "utterance": "Whenever state_space happens, slot1 must also occur",
+    "expected": "(RespondedExistence state_space slot1)"
+  },
+  {
+    "utterance": "Stay in state_space until reaching slot1",
+    "expected": "(Until state_space slot1)"
+  },
+  {
+    "utterance": "state_space must hold true until slot1 occurs",
+    "expected": "(Until state_space slot1)"
+  },
+  {
+    "utterance": "Remain in state_space and stop only when slot1 happens",
+    "expected": "(Until state_space slot1)"
+  },
+  {
+    "utterance": "Visit state_space or slot1",
+    "expected": "(Or state_space slot1)"
+  },
+  {
+    "utterance": "Either state_space or slot1 must be reached",
+    "expected": "(Or state_space slot1)"
+  },
+  {
+    "utterance": "At least one of state_space or slot1 must occur",
+    "expected": "(Or state_space slot1)"
+  },
+  {
+    "utterance": "Visit state_space and slot1",
+    "expected": "(And state_space slot1)"
+  },
+  {
+    "utterance": "Both state_space and slot1 must be reached",
+    "expected": "(And state_space slot1)"
+  },
+  {
+    "utterance": "You must eventually visit both state_space and slot1",
+    "expected": "(And state_space slot1)"
+  },
+  {
+    "utterance": "Stay in state_space unless slot1 happens, otherwise remain in state_space forever",
+    "expected": "(WeakUntil state_space slot1)"
+  },
+  {
+    "utterance": "state_space must hold until slot1, or forever if slot1 never occurs",
+    "expected": "(WeakUntil state_space slot1)"
+  },
+  {
+    "utterance": "Continue in state_space until slot1 happens, or stay in state_space always if slot1 never does",
+    "expected": "(WeakUntil state_space slot1)"
+  },
+  {
+    "utterance": "Eventually visit exit",
+    "expected": "(Eventually exit)"
+  },
+  {
+    "utterance": "Sometime in the future reach exit",
+    "expected": "(Eventually exit)"
+  },
+  {
+    "utterance": "exit must happen eventually",
+    "expected": "(Eventually exit)"
+  },
+  {
+    "utterance": "Always stay in exit",
+    "expected": "(Always exit)"
+  },
+  {
+    "utterance": "exit must always hold",
+    "expected": "(Always exit)"
+  },
+  {
+    "utterance": "In every state remain in exit",
+    "expected": "(Always exit)"
+  },
+  {
+    "utterance": "Next step must be exit",
+    "expected": "(Next exit)"
+  },
+  {
+    "utterance": "In the following state visit exit",
+    "expected": "(Next exit)"
+  },
+  {
+    "utterance": "Immediately after, go to exit",
+    "expected": "(Next exit)"
+  },
+  {
+    "utterance": "Never visit exit",
+    "expected": "(Not exit)"
+  },
+  {
+    "utterance": "Avoid exit",
+    "expected": "(Not exit)"
+  },
+  {
+    "utterance": "exit must not occur at all",
+    "expected": "(Not exit)"
+  },
+  {
+    "utterance": "Eventually visit slot1",
+    "expected": "(Eventually slot1)"
+  },
+  {
+    "utterance": "Sometime in the future reach slot1",
+    "expected": "(Eventually slot1)"
+  },
+  {
+    "utterance": "slot1 must happen eventually",
+    "expected": "(Eventually slot1)"
+  },
+  {
+    "utterance": "Always stay in slot1",
+    "expected": "(Always slot1)"
+  },
+  {
+    "utterance": "slot1 must always hold",
+    "expected": "(Always slot1)"
+  },
+  {
+    "utterance": "In every state remain in slot1",
+    "expected": "(Always slot1)"
+  },
+  {
+    "utterance": "Next step must be slot1",
+    "expected": "(Next slot1)"
+  },
+  {
+    "utterance": "In the following state visit slot1",
+    "expected": "(Next slot1)"
+  },
+  {
+    "utterance": "Immediately after, go to slot1",
+    "expected": "(Next slot1)"
+  },
+  {
+    "utterance": "Never visit slot1",
+    "expected": "(Not slot1)"
+  },
+  {
+    "utterance": "Avoid slot1",
+    "expected": "(Not slot1)"
+  },
+  {
+    "utterance": "slot1 must not occur at all",
+    "expected": "(Not slot1)"
+  },
+  {
+    "utterance": "Eventually visit state_space",
+    "expected": "(Eventually state_space)"
+  },
+  {
+    "utterance": "Sometime in the future reach state_space",
+    "expected": "(Eventually state_space)"
+  },
+  {
+    "utterance": "state_space must happen eventually",
+    "expected": "(Eventually state_space)"
+  },
+  {
+    "utterance": "Always stay in state_space",
+    "expected": "(Always state_space)"
+  },
+  {
+    "utterance": "state_space must always hold",
+    "expected": "(Always state_space)"
+  },
+  {
+    "utterance": "In every state remain in state_space",
+    "expected": "(Always state_space)"
+  },
+  {
+    "utterance": "Next step must be state_space",
+    "expected": "(Next state_space)"
+  },
+  {
+    "utterance": "In the following state visit state_space",
+    "expected": "(Next state_space)"
+  },
+  {
+    "utterance": "Immediately after, go to state_space",
+    "expected": "(Next state_space)"
+  },
+  {
+    "utterance": "Never visit state_space",
+    "expected": "(Not state_space)"
+  },
+  {
+    "utterance": "Avoid state_space",
+    "expected": "(Not state_space)"
+  },
+  {
+    "utterance": "state_space must not occur at all",
+    "expected": "(Not state_space)"
+  }
+]

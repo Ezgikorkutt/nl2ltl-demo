@@ -1,0 +1,184 @@
+Utterance,Expected,Predicted,Syntax_OK,Region_OK,Full_OK
+Visit start before exit,(Precedence start exit),(Precedence start exit),1,1,1
+exit can only occur after start,(Precedence start exit),(Precedence start exit),1,1,1
+"You must reach start first, then exit",(Precedence start exit),(Precedence start exit),1,1,1
+exit only after start,(Response start exit),(Response start exit),1,1,1
+"After visiting start, eventually reach exit",(Response start exit),(Response start exit),1,1,1
+"If start happens, exit must follow",(Response start exit),(Response start exit),1,1,1
+"If you visit start, then you must also reach exit",(RespondedExistence start exit),(RespondedExistence start exit),1,1,1
+Visiting start implies eventually visiting exit,(RespondedExistence start exit),(Response start exit),1,1,0
+"Whenever start happens, exit must also occur",(RespondedExistence start exit),(RespondedExistence start exit),1,1,1
+Stay in start until reaching exit,(Until start exit),(Until start exit),1,1,1
+start must hold true until exit occurs,(Until start exit),(Until start exit),1,1,1
+Remain in start and stop only when exit happens,(Until start exit),(Until start exit),1,1,1
+Visit start or exit,(Or start exit),(Or start exit),1,1,1
+Either start or exit must be reached,(Or start exit),(Or start exit),1,1,1
+At least one of start or exit must occur,(Or start exit),(Or start exit),1,1,1
+Visit start and exit,(And start exit),(And start exit),1,1,1
+Both start and exit must be reached,(And start exit),(And start exit),1,1,1
+You must eventually visit both start and exit,(And start exit),ERROR,1,0,0
+"Stay in start unless exit happens, otherwise remain in start forever",(WeakUntil start exit),(WeakUntil start exit),1,1,1
+"start must hold until exit, or forever if exit never occurs",(WeakUntil start exit),(WeakUntil start exit),1,1,1
+"Continue in start until exit happens, or stay in start always if exit never does",(WeakUntil start exit),(WeakUntil start exit),1,1,1
+Visit start before slot1,(Precedence start slot1),(Precedence start slot1),1,1,1
+slot1 can only occur after start,(Precedence start slot1),(Precedence start slot1),1,1,1
+"You must reach start first, then slot1",(Precedence start slot1),(Precedence start slot1),1,1,1
+slot1 only after start,(Response start slot1),(Precedence start slot1),1,1,0
+"After visiting start, eventually reach slot1",(Response start slot1),(Response start slot1),1,1,1
+"If start happens, slot1 must follow",(Response start slot1),(Response start slot1),1,1,1
+"If you visit start, then you must also reach slot1",(RespondedExistence start slot1),(RespondedExistence start slot1),1,1,1
+Visiting start implies eventually visiting slot1,(RespondedExistence start slot1),(Response start slot1),1,1,0
+"Whenever start happens, slot1 must also occur",(RespondedExistence start slot1),(RespondedExistence start slot1),1,1,1
+Stay in start until reaching slot1,(Until start slot1),(Until start slot1),1,1,1
+start must hold true until slot1 occurs,(Until start slot1),(Until start slot1),1,1,1
+Remain in start and stop only when slot1 happens,(Until start slot1),(Until start slot1),1,1,1
+Visit start or slot1,(Or start slot1),(Or start slot1),1,1,1
+Either start or slot1 must be reached,(Or start slot1),(Or start slot1),1,1,1
+At least one of start or slot1 must occur,(Or start slot1),(Or start slot1),1,1,1
+Visit start and slot1,(And start slot1),(And start slot1),1,1,1
+Both start and slot1 must be reached,(And start slot1),(And start slot1),1,1,1
+You must eventually visit both start and slot1,(And start slot1),ERROR,1,0,0
+"Stay in start unless slot1 happens, otherwise remain in start forever",(WeakUntil start slot1),(WeakUntil start slot1),1,1,1
+"start must hold until slot1, or forever if slot1 never occurs",(WeakUntil start slot1),(WeakUntil start slot1),1,1,1
+"Continue in start until slot1 happens, or stay in start always if slot1 never does",(WeakUntil start slot1),(WeakUntil start slot1),1,1,1
+Visit start before state_space,(Precedence start state_space),(Precedence start state_space),1,1,1
+state_space can only occur after start,(Precedence start state_space),(Precedence start state_space),1,1,1
+"You must reach start first, then state_space",(Precedence start state_space),(Precedence start state_space),1,1,1
+state_space only after start,(Response start state_space),(Response start state_space),1,1,1
+"After visiting start, eventually reach state_space",(Response start state_space),(Response start state_space),1,1,1
+"If start happens, state_space must follow",(Response start state_space),(Response start state_space),1,1,1
+"If you visit start, then you must also reach state_space",(RespondedExistence start state_space),(RespondedExistence start state_space),1,1,1
+Visiting start implies eventually visiting state_space,(RespondedExistence start state_space),(Response start state_space),1,1,0
+"Whenever start happens, state_space must also occur",(RespondedExistence start state_space),(RespondedExistence start state_space),1,1,1
+Stay in start until reaching state_space,(Until start state_space),(Until start state_space),1,1,1
+start must hold true until state_space occurs,(Until start state_space),(Until start state_space),1,1,1
+Remain in start and stop only when state_space happens,(Until start state_space),(WeakUntil start state_space),1,1,0
+Visit start or state_space,(Or start state_space),(Or start state_space),1,1,1
+Either start or state_space must be reached,(Or start state_space),(Or start state_space),1,1,1
+At least one of start or state_space must occur,(Or start state_space),(Or start state_space),1,1,1
+Visit start and state_space,(And start state_space),(And start state_space),1,1,1
+Both start and state_space must be reached,(And start state_space),(And start state_space),1,1,1
+You must eventually visit both start and state_space,(And start state_space),ERROR,1,0,0
+"Stay in start unless state_space happens, otherwise remain in start forever",(WeakUntil start state_space),(WeakUntil start state_space),1,1,1
+"start must hold until state_space, or forever if state_space never occurs",(WeakUntil start state_space),(WeakUntil start state_space),1,1,1
+"Continue in start until state_space happens, or stay in start always if state_space never does",(WeakUntil start state_space),(WeakUntil start state_space),1,1,1
+Visit slot1 before exit,(Precedence slot1 exit),(Precedence slot1 exit),1,1,1
+exit can only occur after slot1,(Precedence slot1 exit),(Precedence slot1 exit),1,1,1
+"You must reach slot1 first, then exit",(Precedence slot1 exit),(Precedence slot1 exit),1,1,1
+exit only after slot1,(Response slot1 exit),(Precedence slot1 exit),1,1,0
+"After visiting slot1, eventually reach exit",(Response slot1 exit),(Response slot1 exit),1,1,1
+"If slot1 happens, exit must follow",(Response slot1 exit),(Response slot1 exit),1,1,1
+"If you visit slot1, then you must also reach exit",(RespondedExistence slot1 exit),(RespondedExistence slot1 exit),1,1,1
+Visiting slot1 implies eventually visiting exit,(RespondedExistence slot1 exit),(Response slot1 exit),1,1,0
+"Whenever slot1 happens, exit must also occur",(RespondedExistence slot1 exit),(RespondedExistence slot1 exit),1,1,1
+Stay in slot1 until reaching exit,(Until slot1 exit),(Until slot1 exit),1,1,1
+slot1 must hold true until exit occurs,(Until slot1 exit),(Until slot1 exit),1,1,1
+Remain in slot1 and stop only when exit happens,(Until slot1 exit),(Until slot1 exit),1,1,1
+Visit slot1 or exit,(Or slot1 exit),(Or slot1 exit),1,1,1
+Either slot1 or exit must be reached,(Or slot1 exit),(Or slot1 exit),1,1,1
+At least one of slot1 or exit must occur,(Or slot1 exit),(Or slot1 exit),1,1,1
+Visit slot1 and exit,(And slot1 exit),(And slot1 exit),1,1,1
+Both slot1 and exit must be reached,(And slot1 exit),(And slot1 exit),1,1,1
+You must eventually visit both slot1 and exit,(And slot1 exit),ERROR,1,0,0
+"Stay in slot1 unless exit happens, otherwise remain in slot1 forever",(WeakUntil slot1 exit),(WeakUntil slot1 exit),1,1,1
+"slot1 must hold until exit, or forever if exit never occurs",(WeakUntil slot1 exit),(WeakUntil slot1 exit),1,1,1
+"Continue in slot1 until exit happens, or stay in slot1 always if exit never does",(WeakUntil slot1 exit),(WeakUntil slot1 exit),1,1,1
+Visit slot1 before state_space,(Precedence slot1 state_space),(Precedence slot1 state_space),1,1,1
+state_space can only occur after slot1,(Precedence slot1 state_space),(Precedence slot1 state_space),1,1,1
+"You must reach slot1 first, then state_space",(Precedence slot1 state_space),(Precedence slot1 state_space),1,1,1
+state_space only after slot1,(Response slot1 state_space),(Response slot1 state_space),1,1,1
+"After visiting slot1, eventually reach state_space",(Response slot1 state_space),(Response slot1 state_space),1,1,1
+"If slot1 happens, state_space must follow",(Response slot1 state_space),(Response slot1 state_space),1,1,1
+"If you visit slot1, then you must also reach state_space",(RespondedExistence slot1 state_space),(RespondedExistence slot1 state_space),1,1,1
+Visiting slot1 implies eventually visiting state_space,(RespondedExistence slot1 state_space),(Response slot1 state_space),1,1,0
+"Whenever slot1 happens, state_space must also occur",(RespondedExistence slot1 state_space),(RespondedExistence slot1 state_space),1,1,1
+Stay in slot1 until reaching state_space,(Until slot1 state_space),(Until slot1 state_space),1,1,1
+slot1 must hold true until state_space occurs,(Until slot1 state_space),(Until slot1 state_space),1,1,1
+Remain in slot1 and stop only when state_space happens,(Until slot1 state_space),(WeakUntil slot1 state_space),1,1,0
+Visit slot1 or state_space,(Or slot1 state_space),(Or slot1 state_space),1,1,1
+Either slot1 or state_space must be reached,(Or slot1 state_space),(Or slot1 state_space),1,1,1
+At least one of slot1 or state_space must occur,(Or slot1 state_space),(Or slot1 state_space),1,1,1
+Visit slot1 and state_space,(And slot1 state_space),(And slot1 state_space),1,1,1
+Both slot1 and state_space must be reached,(And slot1 state_space),(And slot1 state_space),1,1,1
+You must eventually visit both slot1 and state_space,(And slot1 state_space),ERROR,1,0,0
+"Stay in slot1 unless state_space happens, otherwise remain in slot1 forever",(WeakUntil slot1 state_space),(WeakUntil slot1 state_space),1,1,1
+"slot1 must hold until state_space, or forever if state_space never occurs",(WeakUntil slot1 state_space),(WeakUntil slot1 state_space),1,1,1
+"Continue in slot1 until state_space happens, or stay in slot1 always if state_space never does",(WeakUntil slot1 state_space),(WeakUntil slot1 state_space),1,1,1
+Visit state_space before exit,(Precedence state_space exit),(Precedence state_space exit),1,1,1
+exit can only occur after state_space,(Precedence state_space exit),(Precedence state_space exit),1,1,1
+"You must reach state_space first, then exit",(Precedence state_space exit),(Precedence state_space exit),1,1,1
+exit only after state_space,(Response state_space exit),(Precedence state_space exit),1,1,0
+"After visiting state_space, eventually reach exit",(Response state_space exit),(Response state_space exit),1,1,1
+"If state_space happens, exit must follow",(Response state_space exit),(Response state_space exit),1,1,1
+"If you visit state_space, then you must also reach exit",(RespondedExistence state_space exit),(RespondedExistence state_space exit),1,1,1
+Visiting state_space implies eventually visiting exit,(RespondedExistence state_space exit),(Response state_space exit),1,1,0
+"Whenever state_space happens, exit must also occur",(RespondedExistence state_space exit),(RespondedExistence state_space exit),1,1,1
+Stay in state_space until reaching exit,(Until state_space exit),(Until state_space exit),1,1,1
+state_space must hold true until exit occurs,(Until state_space exit),(Until state_space exit),1,1,1
+Remain in state_space and stop only when exit happens,(Until state_space exit),(WeakUntil state_space exit),1,1,0
+Visit state_space or exit,(Or state_space exit),(Or state_space exit),1,1,1
+Either state_space or exit must be reached,(Or state_space exit),(Or state_space exit),1,1,1
+At least one of state_space or exit must occur,(Or state_space exit),(Or state_space exit),1,1,1
+Visit state_space and exit,(And state_space exit),(And state_space exit),1,1,1
+Both state_space and exit must be reached,(And state_space exit),(And state_space exit),1,1,1
+You must eventually visit both state_space and exit,(And state_space exit),ERROR,1,0,0
+"Stay in state_space unless exit happens, otherwise remain in state_space forever",(WeakUntil state_space exit),(WeakUntil state_space exit),1,1,1
+"state_space must hold until exit, or forever if exit never occurs",(WeakUntil state_space exit),(WeakUntil state_space exit),1,1,1
+"Continue in state_space until exit happens, or stay in state_space always if exit never does",(WeakUntil state_space exit),(WeakUntil state_space exit),1,1,1
+Visit state_space before slot1,(Precedence state_space slot1),(Precedence state_space slot1),1,1,1
+slot1 can only occur after state_space,(Precedence state_space slot1),(Precedence state_space slot1),1,1,1
+"You must reach state_space first, then slot1",(Precedence state_space slot1),(Precedence state_space slot1),1,1,1
+slot1 only after state_space,(Response state_space slot1),(Precedence state_space slot1),1,1,0
+"After visiting state_space, eventually reach slot1",(Response state_space slot1),(Response state_space slot1),1,1,1
+"If state_space happens, slot1 must follow",(Response state_space slot1),(Response state_space slot1),1,1,1
+"If you visit state_space, then you must also reach slot1",(RespondedExistence state_space slot1),(RespondedExistence state_space slot1),1,1,1
+Visiting state_space implies eventually visiting slot1,(RespondedExistence state_space slot1),(Response state_space slot1),1,1,0
+"Whenever state_space happens, slot1 must also occur",(RespondedExistence state_space slot1),(RespondedExistence state_space slot1),1,1,1
+Stay in state_space until reaching slot1,(Until state_space slot1),(Until state_space slot1),1,1,1
+state_space must hold true until slot1 occurs,(Until state_space slot1),(Until state_space slot1),1,1,1
+Remain in state_space and stop only when slot1 happens,(Until state_space slot1),(WeakUntil state_space slot1),1,1,0
+Visit state_space or slot1,(Or state_space slot1),(Or state_space slot1),1,1,1
+Either state_space or slot1 must be reached,(Or state_space slot1),(Or state_space slot1),1,1,1
+At least one of state_space or slot1 must occur,(Or state_space slot1),(Or state_space slot1),1,1,1
+Visit state_space and slot1,(And state_space slot1),(And state_space slot1),1,1,1
+Both state_space and slot1 must be reached,(And state_space slot1),(And state_space slot1),1,1,1
+You must eventually visit both state_space and slot1,(And state_space slot1),ERROR,1,0,0
+"Stay in state_space unless slot1 happens, otherwise remain in state_space forever",(WeakUntil state_space slot1),(WeakUntil state_space slot1),1,1,1
+"state_space must hold until slot1, or forever if slot1 never occurs",(WeakUntil state_space slot1),(WeakUntil state_space slot1),1,1,1
+"Continue in state_space until slot1 happens, or stay in state_space always if slot1 never does",(WeakUntil state_space slot1),(WeakUntil state_space slot1),1,1,1
+Eventually visit exit,(Eventually exit),(Eventually exit),1,1,1
+Sometime in the future reach exit,(Eventually exit),(Eventually exit),1,1,1
+exit must happen eventually,(Eventually exit),(Eventually exit),1,1,1
+Always stay in exit,(Always exit),(Always exit),1,1,1
+exit must always hold,(Always exit),(Always exit),1,1,1
+In every state remain in exit,(Always exit),(Always exit),1,1,1
+Next step must be exit,(Next exit),(Next exit),1,1,1
+In the following state visit exit,(Next exit),(Eventually exit),1,1,0
+"Immediately after, go to exit",(Next exit),(Next exit),1,1,1
+Never visit exit,(Not exit),(Not exit),1,1,1
+Avoid exit,(Not exit),(Not exit),1,1,1
+exit must not occur at all,(Not exit),(Not exit),1,1,1
+Eventually visit slot1,(Eventually slot1),(Eventually slot1),1,1,1
+Sometime in the future reach slot1,(Eventually slot1),(Eventually slot1),1,1,1
+slot1 must happen eventually,(Eventually slot1),(Eventually slot1),1,1,1
+Always stay in slot1,(Always slot1),(Always slot1),1,1,1
+slot1 must always hold,(Always slot1),(Always slot1),1,1,1
+In every state remain in slot1,(Always slot1),(Always slot1),1,1,1
+Next step must be slot1,(Next slot1),(Next slot1),1,1,1
+In the following state visit slot1,(Next slot1),(Eventually slot1),1,1,0
+"Immediately after, go to slot1",(Next slot1),(Next slot1),1,1,1
+Never visit slot1,(Not slot1),(Not slot1),1,1,1
+Avoid slot1,(Not slot1),(Not slot1),1,1,1
+slot1 must not occur at all,(Not slot1),(Not slot1),1,1,1
+Eventually visit state_space,(Eventually state_space),(Eventually state_space),1,1,1
+Sometime in the future reach state_space,(Eventually state_space),(Eventually state_space),1,1,1
+state_space must happen eventually,(Eventually state_space),(Eventually state_space),1,1,1
+Always stay in state_space,(Always state_space),(Always state_space),1,1,1
+state_space must always hold,(Always state_space),(Always state_space),1,1,1
+In every state remain in state_space,(Always state_space),(Always state_space),1,1,1
+Next step must be state_space,(Next state_space),(Next state_space),1,1,1
+In the following state visit state_space,(Next state_space),(Eventually state_space),1,1,0
+"Immediately after, go to state_space",(Next state_space),(Next state_space),1,1,1
+Never visit state_space,(Not state_space),(Not state_space),1,1,1
+Avoid state_space,(Not state_space),(Not state_space),1,1,1
+state_space must not occur at all,(Not state_space),(Not state_space),1,1,1

@@ -1,0 +1,11 @@
+Model,Dataset,Syntax_Acc,Region_Acc,Full_Acc
+gemma,dynamic,1.0,0.95,0.91
+mistral,dynamic,1.0,0.94,0.86
+claude,static,0.95,0.9,0.79
+gemma,static,1.0,0.94,0.91
+deepseek,static,1.0,0.96,0.86
+claude,dynamic,0.99,0.94,0.86
+gpt,static,1.0,0.95,0.87
+deepseek,dynamic,1.0,0.95,0.86
+mistral,static,1.0,0.92,0.85
+gpt,dynamic,1.0,0.93,0.87
