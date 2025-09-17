@@ -1,5 +1,4 @@
-Perfect 👍 Let me rewrite your README.md into a polished, professional version.
-Here’s a clean structure you can copy into your repo:
+
 
 # NL2LTL–Zonopy Evaluation Pipeline
 
