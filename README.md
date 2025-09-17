@@ -27,27 +27,27 @@ The pipeline integrates with **Zonopy** and supports verification in both static
 ├── .gitignore                    # Ignored files and directories
 ├── data/                         # Sample datasets & region definitions
 
-⚙️ Installation
+##⚙️ Installation
 
-Clone the repository
+1. Clone the repository
 
 git clone https://github.com/<your-username>/nl2ltl-demo.git
 cd nl2ltl-demo
 
 
-Create and activate a virtual environment
+2. Create and activate a virtual environment
 
 python3 -m venv .venv310
 source .venv310/bin/activate    # Mac/Linux
 .venv310\Scripts\activate       # Windows PowerShell
 
 
-Install dependencies
+3. Install dependencies
 
 pip install -r requirements.txt
 
 
-Set API Keys (export them in your terminal)
+4. Set API Keys (export them in your terminal)
 
 export OPENAI_API_KEY="..."
 export DEEPSEEK_API_KEY="..."
@@ -55,30 +55,30 @@ export GOOGLE_API_KEY="..."
 export ANTHROPIC_API_KEY="..."
 export MISTRAL_API_KEY="..."
 
-🚀 Usage
+##🚀 Usage
 
-Generate datasets
+## 1. Generate datasets
 
 python generate_datasets.py
 
 
-Run evaluation
+## 2. Run evaluation
 
 python integrate_nl2ltl_zonopy.py --model gpt --dataset static
 
 
-Compare results
+## 3. Compare results
 
 python compare_results.py
 
-📊 Example Results
-Model	Dataset	Syntax Acc.	Region Acc.	Full Acc.
-GPT	Static	1.00	0.95	0.87
-Claude	Static	0.95	0.90	0.79
-Gemma	Dynamic	1.00	0.95	0.91
-DeepSeek	Dynamic	1.00	0.95	0.86
-📜 License
+| Model    | Dataset | Syntax Acc. | Region Acc. | Full Acc. |
+| -------- | ------- | ----------- | ----------- | --------- |
+| GPT      | Static  | 1.00        | 0.95        | 0.87      |
+| Claude   | Static  | 0.95        | 0.90        | 0.79      |
+| Gemma    | Dynamic | 1.00        | 0.95        | 0.91      |
+| DeepSeek | Dynamic | 1.00        | 0.95        | 0.86      |
 
+## 📜 License
 This project is licensed under the MIT License.
 
 🙌 Acknowledgements
