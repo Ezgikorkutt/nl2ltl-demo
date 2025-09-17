@@ -79,15 +79,26 @@ The pipeline integrates with **Zonopy** and supports verification in both static
 ---
 
 ## 📊 Example Results
-## 📊 Example Results
 
-| Model     | Dataset  | Syntax Acc. | Region Acc. | Full Acc. |
-|-----------|----------|-------------|-------------|-----------|
-| GPT       | Static   | 1.00        | 0.95        | 0.87      |
-| Claude    | Static   | 0.95        | 0.90        | 0.79      |
-| Gemma     | Dynamic  | 1.00        | 0.95        | 0.91      |
-| DeepSeek  | Dynamic  | 1.00        | 0.95        | 0.86      |
-| Mistral   | Dynamic  | 1.00        | 0.95        | 0.85      |
+
+### Static Dataset
+| Model    | Syntax Acc. | Region Acc. | Full Acc. |
+|----------|-------------|-------------|-----------|
+| Claude   | 0.95        | 0.90        | 0.79      |
+| Gemma    | 1.00        | 0.94        | 0.91      |
+| DeepSeek | 1.00        | 0.96        | 0.86      |
+| GPT      | 1.00        | 0.95        | 0.87      |
+| Mistral  | 1.00        | 0.92        | 0.85      |
+
+### Dynamic Dataset
+| Model    | Syntax Acc. | Region Acc. | Full Acc. |
+|----------|-------------|-------------|-----------|
+| Gemma    | 1.00        | 0.95        | 0.91      |
+| Mistral  | 1.00        | 0.94        | 0.86      |
+| Claude   | 0.99        | 0.94        | 0.86      |
+| DeepSeek | 1.00        | 0.95        | 0.86      |
+| GPT      | 1.00        | 0.93        | 0.87      |
+
 
 ---
 
