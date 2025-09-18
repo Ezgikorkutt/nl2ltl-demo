@@ -1,4 +1,5 @@
 # Safe Deployment of LLMs in Robotics: NL2LTL with Zonopy
+Repository name: safe-llm-nl2ltl-zonopy
 
 This repository contains the implementation of my research project **“Safe Deployment of LLMs in Robotics: NL2LTL with Zonopy”**, conducted during my research stay at TUM.  
 
