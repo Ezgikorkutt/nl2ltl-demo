@@ -1,7 +1,16 @@
-# NL2LTL–Zonopy Evaluation Pipeline
+# Safe Deployment of LLMs in Robotics: NL2LTL with Zonopy
 
-This repository provides a **reproducible pipeline** for evaluating Large Language Models (LLMs) — **GPT, Claude, DeepSeek, Mistral, and Gemma** — on the task of translating natural language utterances into **Linear Temporal Logic (LTL)** and **Declare templates**.  
-The pipeline integrates with **Zonopy** and supports verification in both static and dynamic environments.
+This repository contains the implementation of my research project **“Safe Deployment of LLMs in Robotics: NL2LTL with Zonopy”**, conducted during my research stay at TUM.  
+
+## Overview
+The project integrates **NL2LTL** with **Zonopy** to evaluate the safe deployment of large language models (LLMs) in robotic environments.  
+Key contributions include:  
+- Integration of NL2LTL with Zonopy for end-to-end evaluation  
+- Automatic dataset generation from Zonopy trajectories (static & dynamic)  
+- Coverage of **11 Declare/LTL operators** directly monitorable in Zonopy  
+- Benchmarking of multiple LLMs (GPT, Claude, DeepSeek, Mistral, Gemma)  
+- Evaluation using **syntax, region, and full accuracy** metrics  
+- Comprehensive comparison of static vs. dynamic environments  
 
 ---
 
