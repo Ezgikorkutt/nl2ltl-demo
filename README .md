@@ -117,6 +117,6 @@ This project is licensed under the **MIT License**.
 ---
 
 ## 🙌 Acknowledgements
-- [Zonopy](https://github.com/zonopy/zonopy) for set-based reachability
+- [Zonopy](https://github.com/loizoshad/zonopy) for set-based reachability
 - [NL2LTL](https://github.com/IBM/nl2ltl) for natural language to LTL translation
 - All evaluated LLM providers (OpenAI, Anthropic, Google, DeepSeek, Mistral)
