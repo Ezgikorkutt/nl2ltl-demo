@@ -14,17 +14,6 @@ Key contributions include:
 
 ---
 
-## ✨ Features
-- Integration of **5 LLMs** for NL2LTL translation
-- Dataset generation for **static** and **dynamic** environments
-- Evaluation across **three metrics**:
-  - **Syntax Accuracy** (structural correctness)
-  - **Region Accuracy** (valid environment references)
-  - **Full Accuracy** (exact match with expected formula)
-- Automated result collection and comparison
-
----
-
 ## 📂 Project Structure
 ```plaintext
 ├── integrate_nl2ltl_zonopy.py   # Core pipeline: LLM query, parsing, monitoring
@@ -41,8 +30,8 @@ Key contributions include:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/nl2ltl-demo.git
-   cd nl2ltl-demo
+   git clone https://github.com/Ezgikorkutt/safe-llm-nl2ltl-zonopy.git
+   cd safe-llm-nl2ltl-zonopy
    ```
 
 2. **Create and activate a virtual environment**
